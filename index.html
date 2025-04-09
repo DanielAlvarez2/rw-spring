@@ -9,11 +9,16 @@
             margin:0;
             padding:0;
             box-sizing: border-box;
+            font-size: 22px;
+        }
+        body{
+            padding-bottom: 50px;
         }
         .page{
             width:5in;
             height:8in;
             border:1px solid red;
+            padding: 2mm 3mm 14mm;
         }
         .name{
             font-family: sans-serif;
@@ -25,40 +30,50 @@
             font-family: sans-serif;
         }
         .item{
-            margin-bottom: 20px;
+            margin-bottom: 35px;
+        }
+        .grey{
+            background:lightgrey;
         }
     </style>
 </head>
 <body>
     <div class="page">
 
-        <div class="item">
-            <span class="name">squash-green salad</span>
-            <span class="description">
-                organic mixed lettuce, roasted squash, pumpkin seeds, grape tomatoes, Manchego cheese, white balsamic-Dijon dressing
-            </span>
-            <span class="allergies">dairy, can be made vegan</span>
-            <span class="wine">Hondarrabi Zuri, Hondarrabi Beltza, <b>Rubentis, </b></span>2023, Ameztoi, Getariako Txakolina
+        <div class="grey">        
+            <div class="item">
+                <span class="name">squash-green salad</span>
+                <span class="description">
+                    organic mixed lettuce, roasted squash, pumpkin seeds, grape tomatoes, Manchego cheese, white balsamic-Dijon dressing
+                </span>
+                <span class="allergies">dairy, can be made vegan</span>
+                <span class="wine">Hondarrabi Zuri, Hondarrabi Beltza, <b>Rubentis, </b></span>2023, Ameztoi, Getariako Txakolina
+            </div>
+            <div class="item">
+                <span class="name">smoked salmon</span>
+                <span class="description">bulgur, sun-dried tomato, cucumber, mint, dill, parsley, lemon, crème fraîche, toast</span>
+                <span class="allergies">gluten, dairy</span>
+                <span class="wine">Riesling, <b>Dönnhoff Estate,</b> 2022, Nahe, Germany</span>
+            </div>
+            <div class="item">
+                <span class="name">duck confit</span>
+                <span class="description">beets tartare, soy sauce, ginger, pear, aioli, sesame seeds, scallions, crispy lotus root</span>
+                <span class="allergies">ALLIUM, gluten</span>
+                <span class="wine">Tempranillo, Garnacha, Mazuelo, Graciano, <b>Cerro Añon, </b>Gran Reserva, 2018, Bodegas Olarra, Rioja</span>
+            </div>
         </div>
-        <div class="item">
-            <span class="name">smoked salmon</span>
-            <span class="description">bulgur, sun-dried tomato, cucumber, mint, dill, parsley, lemon, crème fraîche, toast</span>
-            <span class="allergies">gluten, dairy</span>
-            <span class="wine">Riesling, <b>Dönnhoff Estate,</b> 2022, Nahe, Germany</span>
-        </div>
-        <div class="item">
-            <span class="name">duck confit</span>
-            <span class="description">beets tartare, soy sauce, ginger, pear, aioli, sesame seeds, scallions, crispy lotus root</span>
-            <span class="allergies">ALLIUM, gluten</span>
-            <span class="wine">Tempranillo, Garnacha, Mazuelo, Graciano, <b>Cerro Añon, </b>Gran Reserva, 2018, Bodegas Olarra, Rioja</span>
-        </div>
+
 
         <div class="item">
             <span class="name">vegetables and polenta</span>
-            <span class="description">piquillo peppers, zucchini, swiss chard, tomato, carrots, bok choy, bean sprouts</span>
+            <span class="description">piquillo peppers, zucchini, swiss chard, tomato, carrots, bok choy, bean sprouts, polenta cake, balsamic reduction, hazelnuts, sweet piquillo pepper foam</span>
             <span class="allergies">ALLIUM, dairy, nuts, can be made vegan</span>
             <span class="wine">Tempranillo, Garnacha, Mazuelo, Graciano, <b>Añares, </b>Reserva, 2018, Bodegas Olarra, Rioja</span>
         </div>
+
+
+    </div>
+    <div class="page">
         <div class="item">
             <span class="name">Mediterranean sea bream</span>
             <span class="description">shrimp, white beans, tomato, peppers, spinach, garlic-lemon broth</span>
@@ -72,22 +87,20 @@
             <span class="wine">Tempranillo, <b>Portia, </b>Crianza, 2016, Ribera del Duero</span>
         </div>
 
-        <div class="item">
-            <span class="name">chocolate cremoso</span>
-            <span class="description">mango-ginger compote, caramelized pistachio, dark chocolate rocks</span>
-            <span class="allergies">DAIRY, nuts</span>
-            <span class="wine">PX, <b>San Emilio, </b>Emilio Lustau, Jerez</span>
-        </div>
-        <div class="item">
-            <span class="name">pavlova</span>
-            <span class="description">lime-sherry vinegar meingue, crème brûlée ice cream, strawberry tartare, hazelnut brittle</span>
-            <span class="allergies">DAIRY, nuts</span>
-            <span class="wine">Furmint, field blend, <b>Oremus, </b>3 Puttonyos, 2018, Tempos, Vega Sicilia, Tokaji Aszú, Hungary</span>
-        </div>
-
-
-    </div>
-    <div class="page">
+        <div class="grey">
+            <div class="item">
+                <span class="name">chocolate cremoso</span>
+                <span class="description">mango-ginger compote, caramelized pistachio, dark chocolate rocks</span>
+                <span class="allergies">DAIRY, nuts</span>
+                <span class="wine">PX, <b>San Emilio, </b>Emilio Lustau, Jerez</span>
+            </div>
+            <div class="item">
+                <span class="name">pavlova</span>
+                <span class="description">lime-sherry vinegar meingue, crème brûlée ice cream, strawberry tartare, hazelnut brittle</span>
+                <span class="allergies">DAIRY, nuts</span>
+                <span class="wine">Furmint, field blend, <b>Oremus, </b>3 Puttonyos, 2018, Tempos, Vega Sicilia, Tokaji Aszú, Hungary</span>
+            </div>
+        </div>        
 
     </div>
 </body>
